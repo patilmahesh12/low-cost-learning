@@ -1,4 +1,5 @@
 
+
 # StudyNotion - EdTech Platform
 :rocket: [Link to website][https://studynotion-frontend.vercel.app/]
 
@@ -131,3 +132,6 @@ Access the application in your browser at `http://localhost:3000`.
 
 
 
+=======
+# low-cost-learning
+>>>>>>> f8bad0cbbba1d8903260bc537b23e85869f598d3
