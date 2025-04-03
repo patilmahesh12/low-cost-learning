@@ -23,15 +23,9 @@ const coursesSchema = new mongoose.Schema({
       ref: "RatingAndReview",
     },
   ],
-  price: {
-    type: Number,
-  },
-  thumbnail: {
-    type: String,
-  },
-  tag: {
-    type: String,
-  },
+  price: { type: Number },
+  thumbnail: { type: String },
+  tag: { type: [String] },
   category: {
     type: mongoose.Schema.Types.ObjectId,
     ref: "Category",
